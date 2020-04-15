@@ -238,12 +238,12 @@
       max-width: 200px !important;
     }
     .container-fluid .logo-container {
-      top: 245vh;
+      top: 255vh;
       left: 17vw;
       right: 17vw;
     }
     .container-fluid .competitor-container {
-      top: 300vh;
+      top: 305vh;
       left: -56vw;
     }
     .container-fluid .form-container footer {
