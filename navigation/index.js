@@ -250,7 +250,7 @@ function myFunction() {
     setValid(idMessage, idField, "Field successfully edited");
   }
   // It's hard to write regex yourself for name and surname but I tried my best. I used to help the online compiler to validate regex.
-  var methode = Math.floor((mileage + intrest) / 5);
+  var methode = Math.floor(mileage + intrest);
   // auxiliary variables
   var x = methode;
   var y = methode;
