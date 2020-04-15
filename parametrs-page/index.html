@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Constant parametrs</title>
+    <link rel="stylesheet" type="text/css" href="../assets/custom.css" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../mobile-rwd/navigate-arrows.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../mobile-rwd/constant-parametrs.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../cutom-files/bootswach-style/bootstrap.min.css"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/additional-methods.min.js"></script>
+    <script src="../navigation/index.js"></script>
+  </head>
+  <body>
+    <main class="content">
+      <header>
+        <nav class="nav icons icons-arrows">
+          <button
+            type="button"
+            value="create page"
+            onclick="Back()"
+            class="navigate-btn navigate-btn-one"
+          >
+            <span
+              ><img
+                src="../assets/icons/istockphoto-1013490744-1024x1024.jpg"
+                alt=""
+            /></span>
+          </button>
+          <button
+            type="button"
+            class="navigate-btn navigate-btn-two nav-button"
+          >
+            <span
+              ><img
+                id="next"
+                src="../assets/icons/istockphoto-1013490744-1024x1024.jpg"
+                alt=""
+            /></span>
+          </button>
+          <button
+            type="button"
+            onclick="go()"
+            class="navigate-btn navigate-btn-tree"
+          >
+            <span
+              ><img
+                src="../assets/icons/istockphoto-1013490744-1024x1024.jpg"
+                alt=""
+            /></span>
+          </button>
+        </nav>
+        <div class="title-page">
+          <h1>Constant parametrs</h1>
+        </div>
+      </header>
+      <!-- The main container for all content -->
+
+      <script></script>
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Left columna-LOGO Mercedes Benz -->
+          <div class="col-3">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col">
+                  <div class="logo-container">
+                    <div class="brand-logo">
+                      <img src="../assets/logo/logo.webp" alt="" />
+                    </div>
+                    <h6><span>OC 500 2542 RF</span></h6>
+                    <p>Constant parametrs</p>
+                    <h6><span>IDR 56 029 057,14</span></h6>
+                    <p>Operational costs</p>
+                    <h6>
+                      <span class="info">
+                        <p id="value1"></p>
+                      </span>
+                    </h6>
+                    <p>TCO per month</p>
+                    <h6>
+                      <span class="info">
+                        <p id="value2"></p>
+                      </span>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Middle columna-FORM -->
+
+          <div class="col-6">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col">
+                  <for class="form-container">
+                    <form id="form">
+                      <div class="form-group row has-success">
+                        <label
+                          class="col-sm-5 col-form-label"
+                          for="inputSuccess1"
+                          >Driver per <br />month</label
+                        >
+                        <div class="col-sm-7 padding-form">
+                          <input
+                            id="inputrequire1"
+                            type="text"
+                            placeholder="Driver per month"
+                            class="form-control is-valid"
+                          />
+
+                          <p id="GFG_DOWN1"></p>
+                        </div>
+                      </div>
+
+                      <!-- _____________Next_____________ -->
+                      <div class="form-group row has-success">
+                        <label
+                          class="col-sm-5 col-form-label"
+                          for="inputSuccess1"
+                          >Operational mileage <br />per day</label
+                        >
+                        <div class="col-sm-7 padding-form">
+                          <input
+                            id="inputrequire2"
+                            type="text"
+                            placeholder="Operational mileage per day"
+                            class="form-control is-valid"
+                          />
+                          <p id="GFG_DOWN2"></p>
+                        </div>
+                      </div>
+                      <!-- _____________Next_____________ -->
+                      <div class="form-group row has-success">
+                        <label
+                          class="col-sm-5 col-form-label"
+                          for="inputSuccess"
+                          >Operational days<br />
+                          per month</label
+                        >
+                        <div class="col-sm-7 padding-form">
+                          <input
+                            id="inputrequire3"
+                            type="text"
+                            placeholder="Operational days per month"
+                            class="form-control is-valid"
+                          />
+                          <p id="GFG_DOWN3"></p>
+                        </div>
+                      </div>
+                      <!-- _____________Next_____________ -->
+                      <div class="form-group row has-success">
+                        <label
+                          class="col-sm-5 col-form-label"
+                          for="inputSuccess1"
+                          >Mileage per<br />
+                          month</label
+                        >
+                        <div class="col-sm-7 padding-form">
+                          <input
+                            id="numb1"
+                            type="text"
+                            placeholder="Mileage per month"
+                          />
+                          <p id="demo1" class="error"></p>
+                        </div>
+                      </div>
+
+                      <!-- _____________Next_____________ -->
+                      <div class="form-group row has-success">
+                        <label
+                          class="col-sm-5 col-form-label"
+                          for="inputSuccess1"
+                          >Mileage per<br />
+                          year</label
+                        >
+                        <div class="col-sm-7 padding-form">
+                          <input
+                            id="numb2"
+                            type="text"
+                            placeholder="Mileage per year"
+                            class="form-control is-invalid"
+                          />
+                          <p id="demo2" class="error"></p>
+                        </div>
+                      </div>
+                      <!-- _____________Next_____________ -->
+                      <div class="form-group row has-success">
+                        <label
+                          class="col-sm-5 col-form-label"
+                          for="inputSuccess1"
+                          >Vehicle life time<br />
+                          in years</label
+                        >
+                        <div class="col-sm-7 padding-form">
+                          <input
+                            id="numb3"
+                            type="text"
+                            placeholder="Vehicle life time in years"
+                            class="form-control is-invalid"
+                          />
+                          <p id="demo3" class="error"></p>
+                        </div>
+                      </div>
+                      <!-- _____________Next_____________ -->
+                      <div class="form-group row has-success">
+                        <label
+                          class="col-sm-5 col-form-label"
+                          for="inputSuccess1"
+                          >Interest rate per<br />
+                          month</label
+                        >
+                        <div class="col-sm-7 padding-form">
+                          <input
+                            id="numb4"
+                            type="text"
+                            placeholder="Interest rate per month"
+                            class="form-control is-invalid"
+                          />
+                          <p id="demo4" class="error"></p>
+                        </div>
+                      </div>
+                      <!-- _____________Next_____________ -->
+                      <div class="form-group row has-success">
+                        <label
+                          class="col-sm-5 col-form-label"
+                          for="inputSuccess1"
+                          >Disel price per liter<br />
+                          (Pretamina Dex)</label
+                        >
+                        <div class="col-sm-7 padding-form">
+                          <input
+                            id="inputrequire4"
+                            type="text"
+                            placeholder="Disel price per liter "
+                            class="form-control is-valid"
+                          />
+                          <p id="GFG_DOWN4"></p>
+                        </div>
+                      </div>
+                      <!-- _____________Next_____________ -->
+                      <div class="form-group row has-success">
+                        <label
+                          class="col-sm-5 col-form-label"
+                          for="inputSuccess1"
+                          >Road expenses<br />
+                          (Toll. etc.) per month</label
+                        >
+                        <div class="col-sm-7 padding-form">
+                          <input
+                            id="inputrequire5"
+                            type="text"
+                            placeholder="Road expenses"
+                            class="form-control is-valid"
+                          />
+                          <p id="GFG_DOWN5"></p>
+                        </div>
+                      </div>
+                      <!-- _____________Next_____________ -->
+                      <div class="form-group row has-success">
+                        <label
+                          class="col-sm-5 col-form-label"
+                          for="inputSuccess1"
+                          >Yearly registration cost<br />
+                          (STNK, KIR, etc.)</label
+                        >
+                        <div class="col-sm-7 padding-form">
+                          <input
+                            id="inputrequire6"
+                            type="text"
+                            placeholder="Yearly registration cost "
+                            class="form-control is-valid"
+                          />
+                          <p id="GFG_DOWN6"></p>
+                        </div>
+                      </div>
+                      <!-- _____________Next_____________ -->
+                      <div class="form-group row has-success">
+                        <label
+                          class="col-sm-5 col-form-label"
+                          for="inputSuccess1"
+                          >Registration cost per month <br />(STNK, KIR
+                          etc.)</label
+                        >
+                        <div class="col-sm-7 padding-form">
+                          <input
+                            id="numb5"
+                            type="text"
+                            placeholder="Registration cost per month "
+                            class="form-control is-invalid"
+                          />
+                          <p id="demo5" class="error"></p>
+                        </div>
+                      </div>
+                    </form>
+
+                    <footer>
+                      <p>
+                        The TCO calculator is only for illustration and
+                        estimation of each product. <br />
+                        Total Biaya sersabut diatas hanya untuk ilustrasi dan
+                        perkiraan dari setiap producy.
+                      </p>
+                    </footer>
+                  </for>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Right column of the content-BUTTON Enter name -->
+          <div class="col-3">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col">
+                  <div class="competitor-container">
+                    <div class="enter-competitor-name">
+                      <div class="col margin-input">
+                        <input
+                          id="numb6"
+                          type="text"
+                          placeholder="Registration cost per month "
+                          class="form-control is-invalid"
+                          id="inputValid"
+                        />
+                        <p id="demo6" class="error"></p>
+                      </div>
+                    </div>
+
+                    <p>Constant parametrs</p>
+                    <h6><span>IDR 56 029 057,14</span></h6>
+                    <p>Operational costs</p>
+                    <h6>
+                      <span class="info">
+                        <p id="value3"></p>
+                      </span>
+                    </h6>
+                    <p>TCO per month</p>
+                    <h6>
+                      <span class="info">
+                        <p id="value4"></p>
+                      </span>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section class="change-page">
+      <div class="row">
+        <div class="col-6 button-left">
+          <button
+            type="button"
+            value="create page"
+            onclick="back();"
+            class="btn btn-primary button-padding"
+          >
+            Back
+          </button>
+        </div>
+        <div class="col-6 button-right">
+          <button
+            id="submit"
+            type="button"
+            value="create page"
+            onclick="myFunction()"
+            class="btn btn-primary button-padding"
+          >
+            Next
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

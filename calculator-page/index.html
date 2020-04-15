@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TCO calculator</title>
+
+    <link rel="stylesheet" type="text/css" href="../assets/custom.css" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../mobile-rwd/navigate-arrows.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../mobile-rwd/tco-lcalculator.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../cutom-files/bootswach-style/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../navigation/index.js"></script>
+  </head>
+  <body>
+    <main class="content">
+      <header>
+        <nav class="nav icons icons-arrows">
+          <button
+            type="button"
+            value="create page"
+            onclick="Back()"
+            class="navigate-btn navigate-btn-one"
+          >
+            <span
+              ><img
+                src="../assets/icons/istockphoto-1013490744-1024x1024.jpg"
+                alt=""
+            /></span>
+          </button>
+          <button
+            type="button"
+            class="navigate-btn navigate-btn-two nav-button"
+          >
+            <span
+              ><img
+                id="next"
+                src="../assets/icons/istockphoto-1013490744-1024x1024.jpg"
+                alt=""
+            /></span>
+          </button>
+          <button
+            type="button"
+            onclick="go()"
+            class="navigate-btn navigate-btn-tree"
+          >
+        
+              <img
+                src="../assets/icons/istockphoto-1013490744-1024x1024.jpg"
+                alt=""
+            />
+          </button>
+        <div class="title-page">
+          <h1>TCO calculator</h1>
+        </div>
+      </header>
+
+      <section class="total-cost">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-7 about-container">
+              <div class="title-container">
+                <h3>Total Cost of ownership</h3>
+              </div>
+              <div class="about">
+                <p>
+                  The TCO calculator is only for illustration and estimation of
+                  each product.<br />
+                  Total Biaya sersabut diatas hanya untuk ilustrasi dan
+                  perkiraan dari setiap producy.
+                </p>
+              </div>
+            </div>
+            <div class="col-5">
+              <div class="img-box">
+                <img class="img" src="../assets/imges/stuff.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="select-chassis-version">
+        <div class="container-fluid">
+          <div class="title-container">
+            <h5>Select chassis version</h5>
+          </div>
+          <div class="row">
+            <div class="col-2"></div>
+            <div class="col-4 button-style">
+              <button
+                type="button"
+                class="btn button-position button-position-b1 noclick with-color"
+                onclick='call_this1();'
+              >
+                Front Engine chassis
+              </button>
+            </div>
+            <div class="col-4 button-style">
+              <button
+              
+                type="button"
+                class="btn button-position button-position-b2 noclick with-color"
+                onclick='call_this2();'
+              >
+                Rear Engine chassis
+              </button>
+            </div>
+            <div class="col-2"></div>
+          </div>
+        </div>
+      </section>
+      <section class="select-chassis">
+        <div class="container-fluid">
+          <div class="title-container">
+            <h5>Select chassis</h5>
+          </div>
+          <div class="row">
+            <div class="col-1"></div>
+            <div class="col-3 button-style">
+              <button
+                type="button"
+                class="btn button-position button-position-b3 noclick with-color"
+                onclick='call_this3();'
+              >
+                OF 917 4250 MT
+              </button>
+            </div>
+            <div class="col-4 button-style">
+              <button
+                type="button"
+                class="btn button-position button-position-b4 noclick with-color"
+                onclick='call_this4();'
+              >
+                OF 917 5300 MT
+              </button>
+            </div>
+            <div class="col-3 button-style">
+              <button
+                type="button"
+                class="btn button-position button-position-b5 noclick with-color"
+                onclick='call_this5();'
+              >
+                OF 1623
+              </button>
+            </div>
+            <div class="col-1"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <a href=""></a>
+    <section class="change-page">
+      <div class="row">
+        <div class="col-6 button-view button-left">
+          <button
+            type="button"
+            value="create page"
+            onclick="missing_pages();"
+            class="btn btn-primary button-padding"
+          >
+            >TCO for Mercedes-Benz only
+          </button>
+        </div>
+        <div class="col-6 button-view button-right">
+          <button
+            type="button"
+            value="create page"
+            onclick="parametrs();"
+            class="btn btn-primary button-right button-padding"
+          >
+            Comparsion with the competitors
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

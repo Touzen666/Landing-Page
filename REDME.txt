@@ -1,0 +1,16 @@
+In places where nothing seems to happen, please open the console and click again.
+At the beginning I wanted to say that I did not give a lot of comments.
+I tried not to repeat so that one part of the code to comment only once.
+In places where code writing was repeated, for obvious reasons I did not write comments.
+Unfortunately, I did not have all the assets needed to create an identical IU as in the picture
+Unfortunately, I could not pass the variables to lokalSorage from the first page so that they were saved and forwarded but I wanted to do it :) I just lacked time.
+I used jQuery to select and change the css class of these buttons.
+I purposely did not use any framework for validation. Yes, I think you wanted to check my js. 
+That's why I wrote everything from scratch. Otherwise I would probably use validate.js
+The js file is in navigation.
+Information on RWD:
+I wrote both sides for mobile devices emulated in DevTools.
+There was no formula for the phone, so I used the standard. Another element under the next element.
+In css I haven't commented too much because I think it is readable.
+I adapted the pages to mobile devices so that they do not lose shape.
+There are a few unclosed parts of the task. I did as much as I could at that time.

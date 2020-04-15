@@ -1,0 +1,132 @@
+/* Columns left and right */
+.container-fluid .logo-container {
+  text-align: center;
+  position: relative;
+  text-align: center;
+  top: 18vh;
+  bottom: 34vh;
+}
+.container-fluid .logo-container span {
+  font-size: 15px;
+}
+.container-fluid h6 .info {
+  font-size: 25px;
+}
+.container-fluid .brand-logo {
+  margin-bottom: 5%;
+}
+.container-fluid .brand-logo img {
+  max-width: 50px;
+  max-width: 50px;
+}
+
+.container-fluid .competitor-container {
+  position: relative;
+  text-align: center;
+  top: 26vh;
+  bottom: 26vh;
+}
+.container-fluid .enter-competitor-name {
+  margin-bottom: 10%;
+  max-width: 237px;
+  margin-left: 5.5vh;
+  margin-right: 5.5vh;
+}
+.container-fluid .enter-competitor-name .form-control {
+  position: relative;
+
+  border-radius: 3rem;
+  background-color: Transparent !important;
+  background-repeat: no-repeat !important;
+}
+.container-fluid .enter-competitor-name .margin-input {
+  max-width: 250px;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+}
+/* Columns left and right */
+/* Form container */
+.container-fluid .form-container .form-group .padding-form {
+  padding-left: 0;
+}
+.container-fluid .form-container .form-group .form-control {
+  position: relative;
+  margin-top: 2vh;
+  width: 250px;
+  border-radius: 3rem;
+  background-color: Transparent !important;
+  background-repeat: no-repeat !important;
+}
+
+.container-fluid .form-container label {
+  position: relative;
+  text-align: right;
+}
+.container-fluid .form-container .form-control {
+  color: white !important;
+}
+.container-fluid .form-container footer {
+  margin-top: 20%;
+  text-align: center;
+}
+
+.container-fluid .form-container footer p {
+  bottom: -80px;
+  position: absolute;
+  left: 5vw;
+  right: 5vw;
+}
+/* Form container */
+/* Change page */
+
+.btn {
+  color: white !important;
+}
+.btn:focus {
+  outline: none !important;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.btn:active {
+  background-color: Transparent !important;
+  background-repeat: no-repeat !important;
+
+  cursor: pointer !important;
+}
+.btn::after {
+  background-color: Transparent !important;
+  background-repeat: no-repeat !important;
+
+  cursor: pointer !important;
+}
+.button-padding {
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+  padding-top: 1.5% !important;
+  padding-bottom: 1.5% !important;
+}
+/* Change page */
+.error {
+  margin: 0;
+  padding: 0;
+  padding-left: 1vh;
+  padding-right: 1vh;
+  font-size: 9px;
+  position: relative;
+  text-decoration: unset;
+  color: red;
+}
+.success {
+  margin: 0;
+  padding: 0;
+  padding-left: 1vh;
+  padding-right: 1vh;
+  font-size: 9px;
+  position: relative;
+  text-decoration: unset;
+  color: rgb(25, 221, 25);
+}
+.disabled {
+  pointer-events: none;
+}

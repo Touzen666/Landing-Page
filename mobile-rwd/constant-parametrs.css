@@ -1,0 +1,287 @@
+
+@media screen and (width: 1024px) {
+  .content .title-page h1 {
+    margin-bottom: 2vh;
+  }
+    main {
+      padding-bottom: 22%;
+    }
+
+    .form-container {
+      position: relative;
+      top: 5vh;
+      left: -4vw;
+    }
+    .container-fluid .logo-container {
+      top: 24vh;
+    }
+    .enter-competitor-name{
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+    .margin-input  {
+      padding: 0 !important;
+      margin-bottom: 1vh;
+  
+    }
+    .container-fluid .form-container footer {
+      position: relative;
+      width: 650px;
+      top: 10vh;
+      left: -7.5vw;
+    }
+  }
+  @media screen and (width: 768px) {
+    .content .title-page h1 {
+      position: relative;
+      margin-bottom: 3vh;
+  
+    }
+
+    .form-container {
+      position: relative;
+  
+      left: -7vw !important;
+    }
+    .container-fluid .logo-container {
+      top: 23vh;
+    }
+    .enter-competitor-name{
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+    .margin-input  {
+      padding: 0 !important;
+      margin-bottom: 1vh;
+  
+    }
+    .container-fluid .form-container footer {
+      position: relative;
+      width: 560px;
+      top: -1vh;
+      left: -9vw;
+    }
+  }
+  @media screen and (max-width: 414px) {
+    .content .title-page h1 {
+      position: relative;
+      top: 6vh;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+        .form-container {
+          position: relative;
+          top: -5vh;
+          left: 8vw;
+        }
+      .form-group label {
+          position: absolute;
+          left: -22vh;
+          top: 8vh;
+        }
+        .form-container input {
+          max-width: 200px !important;
+        }
+        .container-fluid .logo-container {
+          position: absolute;
+          width: 200px;
+          top: 210vh;
+          left: 20.5vw;
+          right: 20.5vw;
+        }
+        .container-fluid .competitor-container {
+          position: absolute;
+          width: 200px;
+          top: 250vh;
+          left: -53vw;
+        }
+        .container-fluid .form-container footer {
+          position: relative;
+          width: 250px;
+          top: 100vh;
+          left: -21.5vw;
+        }
+        .change-page {
+          position: relative;
+          top: 110vh;
+        }
+  
+  }
+  @media screen and (max-width: 411px) {
+    .content .title-page h1 {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .form-container {
+      top: -5vh ;
+      left: 8vw;
+    }
+  .form-group label {
+      left: -22vh;
+      top: 8vh;
+    }
+    .form-container input {
+      max-width: 200px !important;
+    }
+    .container-fluid .logo-container {
+      top: 210vh;
+      left: 20vw;
+      right: 20vw;
+    }
+    .container-fluid .competitor-container {
+      width: 200px;
+      top: 255vh;
+      left: -53vw;
+    }
+    .container-fluid .form-container footer {
+      top: 100vh;
+      left: -22vw;
+    }
+    .change-page {
+      top: 110vh;
+    }
+  
+  }
+  @media screen and ( height: 823px) {
+    .form-container {
+      top: -5vh;
+      left: 13vw;
+    }
+  .form-group label {
+      left: -22vh;
+      top: 7.5vh;
+    }
+    .form-container input {
+      max-width: 200px !important;
+    }
+    .container-fluid .logo-container {
+      top: 190vh;
+      left: 20vw;
+      right: 20vw;
+    }
+    .container-fluid .competitor-container {
+      top: 235vh;
+      left: -53vw;
+    }
+    .container-fluid .form-container footer {
+  
+      top: 100vh;
+      left: -26vw;
+    }
+    .change-page {
+      top: 110vh;
+    }
+  
+  }
+  @media screen and ( height: 812px) {
+  .form-group label {
+      left: -18vh !important;
+      top: 7.5vh !important;
+    }
+    .form-container input {
+      max-width: 200px !important;
+    }
+    .container-fluid .logo-container {
+  
+      top: 175vh !important;
+    }
+    .container-fluid .competitor-container {
+  
+      top: 215vh !important;
+    }
+    .container-fluid .form-container footer {
+      top: 90vh !important;
+    }
+    .change-page {
+      top: 100vh !important;
+    }
+  }
+  @media screen and (max-width: 375px) {
+          .form-container {
+            left: 8vw;
+          }
+          .form-group label {
+            left: -22vh;
+            top: 9vh;
+          }
+        .form-container input {
+          max-width: 200px !important;
+        }
+        .container-fluid .logo-container {
+          top: 230vh;
+          left: 18vw;
+          right: 18vw;
+        }
+        .container-fluid .competitor-container {
+          top: 282vh;
+          left: -54.5vw;
+        }
+        .container-fluid .form-container footer {
+          top: 115vh;
+          left: -24.5vw;
+        }
+        .change-page {
+          top: 125vh;
+  }
+  @media screen and (max-width: 360px) {
+    .content .title-page h1 {
+    top: 8vh;
+    }
+    .form-group label {
+      left: -22vh;
+      top: 9vh;
+    }
+    .form-container {
+      left: 8vw;
+    }
+    .form-container input {
+      max-width: 200px !important;
+    }
+    .container-fluid .logo-container {
+      top: 245vh;
+      left: 17vw;
+      right: 17vw;
+    }
+    .container-fluid .competitor-container {
+      top: 300vh;
+      left: -56vw;
+    }
+    .container-fluid .form-container footer {
+      top: 120vh;
+      left: -26vw;
+    }
+    .change-page {
+      top: 135vh;
+    }
+  }
+  @media screen and (max-width: 320px) {
+        .form-container {
+          left: 5vw;
+        }
+  
+      .form-group label {
+          left: -22vh;
+          top: 9.5vh;
+        }
+  
+        .form-container input {
+          max-width: 200px !important;
+        }
+        .container-fluid .logo-container {
+          top: 305vh;
+          left: 13vw;
+          right: 13vw;
+        }
+        .container-fluid .competitor-container {
+          top: 370vh;
+          left: -59.5vw;
+        }
+        .container-fluid .form-container footer {
+          position: relative;
+          top: 145vh;
+          left: -27.8vw;
+        }
+        .change-page {
+          top: 155vh;
+  }
+  

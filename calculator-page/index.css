@@ -1,0 +1,152 @@
+/* styles image */
+.total-cost .container-fluid .img-box {
+  max-width: 400px;
+  max-height: 400px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.total-cost .container-fluid .img {
+  justify-content: center;
+  text-align: center;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+/* styles image */
+/* main text and its title */
+.total-cost {
+  position: relative;
+}
+.total-cost .container-fluid .about-container .title-container {
+  margin-bottom: 5%;
+}
+
+.total-cost .container-fluid .about-container {
+  position: relative;
+  margin-top: 5%;
+}
+.total-cost .container-fluid .about-container .about p {
+  text-align: justify;
+}
+/* main text and its title */
+/* The bottom two titles */
+.select-chassis-version .container-fluid .title-container {
+  border-bottom: rgba(129, 129, 129, 0.219) solid 1.2px;
+  margin-bottom: 2%;
+}
+.select-chassis .container-fluid .title-container {
+  margin-top: 3%;
+  border-bottom: rgb(105, 105, 105) solid 1.2px;
+  margin-bottom: 2%;
+}
+.container-fluid .title-container h5 {
+  margin-bottom: 3%;
+  margin-left: 0.5%;
+}
+/* The bottom two titles */
+/* button styles */
+.btn {
+  color: white !important;
+}
+.btn:focus {
+  outline: none !important;
+
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.lit-underline:focus {
+  border-bottom: rgba(0, 183, 255, 0.925) solid 4px;
+  box-shadow: 0 8px 6px -6px rgba(0, 183, 255, 0.925) !important;
+}
+
+.button-style {
+  justify-content: center !important;
+  text-align: center;
+}
+.button-style button {
+  font-size: 20px;
+}
+.button-style button:hover {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+
+  cursor: pointer;
+
+  border-bottom: rgba(0, 183, 255, 0.925) solid 4px;
+  box-shadow: 0 8px 6px -6px rgba(0, 183, 255, 0.925);
+}
+
+.btn::after {
+  border-bottom: rgba(0, 183, 255, 0.925) solid 4px;
+  box-shadow: 0 8px 6px -6px rgba(0, 183, 255, 0.925);
+}
+/* button styles */
+/* buttons for changing page */
+.change-page {
+  margin-top: 3.5%;
+}
+
+.button-padding {
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+  padding-top: 1.5% !important;
+  padding-bottom: 1.5% !important;
+}
+/* buttons for changing page */
+
+@media screen and (min-width: 1030px) {
+  .navigate-btn img {
+    height: 50px;
+    cursor: pointer;
+  }
+  .navigate-btn-one {
+    position: absolute;
+    left: 7px;
+  }
+  .navigate-btn-two {
+    position: absolute;
+    left: 65px !important;
+  }
+  .navigate-btn-tree {
+    position: absolute;
+    left: 124px;
+  }
+  .content .title-page h1 {
+    position: relative;
+    left: 53vh;
+  }
+  .total-cost .container-fluid .about-container .title-container {
+    position: relative;
+    top: 10px;
+  }
+  .total-cost .container-fluid .about-container {
+    position: relative;
+    top: 150px;
+  }
+  .total-cost .container-fluid .img-box {
+    position: relative;
+    top: 150px;
+  }
+  .total-cost .container-fluid .img {
+    position: relative;
+  }
+  .select-chassis-version {
+    position: relative;
+    top: 150px;
+  }
+
+  .title-containe .button-style {
+    position: relative;
+  }
+  .select-chassis {
+    position: relative;
+    top: 150px;
+  }
+
+  .change-page {
+    position: relative;
+    top: 55vh;
+  }
+}
