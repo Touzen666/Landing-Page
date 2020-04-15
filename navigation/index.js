@@ -144,15 +144,15 @@ function myFunction() {
   mileage = parseFloat(mileage);
 
   if (isNaN(mileage)) {
-    setInvalid(idMessage, idField, "Milage must be a number");
+    setInvalid(idMessage, idField, "Field must be a number");
   } else if (isNaN(mileage) || mileage === "") {
     setInvalid(
       idMessage,
       idField,
-      "Milage must be a number and can not be null"
+      "Field must be a number and can not be null"
     );
   } else if (mileage < 1) {
-    setInvalid(idMessage, idField, "Mileage can't be less than 1");
+    setInvalid(idMessage, idField, "Field can't be less than 1");
   } else {
     setValid(idMessage, idField, "Field successfully edited");
   }
@@ -165,10 +165,10 @@ function myFunction() {
     setInvalid(
       idMessage,
       idField,
-      "Milage must be a number and can not be null"
+      "Field must be a number and can not be null"
     );
   } else if (mileage2 < 500) {
-    setInvalid(idMessage, idField, "Mileage can't be less than 500");
+    setInvalid(idMessage, idField, "Field can't be less than 500");
   } else {
     setValid(idMessage, idField, "Field successfully edited");
   }
@@ -181,10 +181,10 @@ function myFunction() {
     setInvalid(
       idMessage,
       idField,
-      "Milage must be a number and can not be null"
+      "Field must be a number and can not be null"
     );
   } else if (vehicle < 1) {
-    setInvalid(idMessage, idField, "Mileage can't be less than 1");
+    setInvalid(idMessage, idField, "Field can't be less than 1");
   } else {
     setValid(idMessage, idField, "Field successfully edited");
   }
@@ -197,10 +197,10 @@ function myFunction() {
     setInvalid(
       idMessage,
       idField,
-      "Milage must be a number and can not be null"
+      "Field must be a number and can not be null"
     );
   } else if (intrest < 2) {
-    setInvalid(idMessage, idField, "Mileage can't be less than 1");
+    setInvalid(idMessage, idField, "Field can't be less than 1");
   } else {
     setValid(idMessage, idField, "Field successfully edited");
   }
@@ -215,7 +215,7 @@ function myFunction() {
     setInvalid(
       idMessage,
       idField,
-      "Milage must be a number and can not be null"
+      "Field must be a number and can not be null"
     );
   } else if (!machesPatern) {
     setInvalid(
@@ -238,7 +238,7 @@ function myFunction() {
     setInvalid(
       idMessage,
       idField,
-      "Milage must be a number and can not be null"
+      "Field must be a number and can not be null"
     );
   } else if (!machesPatern2) {
     setInvalid(
