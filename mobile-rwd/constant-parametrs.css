@@ -183,17 +183,17 @@
     }
     .container-fluid .logo-container {
   
-      top: 175vh !important;
+      top: 195vh !important;
     }
     .container-fluid .competitor-container {
   
-      top: 215vh !important;
+      top: 245vh !important;
     }
     .container-fluid .form-container footer {
-      top: 90vh !important;
+      top: 105vh !important;
     }
     .change-page {
-      top: 100vh !important;
+      top: 115vh !important;
     }
   }
   @media screen and (max-width: 375px) {
