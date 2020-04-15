@@ -85,14 +85,14 @@
         .container-fluid .logo-container {
           position: absolute;
           width: 200px;
-          top: 210vh;
+          top: 215vh;
           left: 20.5vw;
           right: 20.5vw;
         }
         .container-fluid .competitor-container {
           position: absolute;
           width: 200px;
-          top: 250vh;
+          top: 258vh;
           left: -53vw;
         }
         .container-fluid .form-container footer {
@@ -124,13 +124,13 @@
       max-width: 200px !important;
     }
     .container-fluid .logo-container {
-      top: 210vh;
+      top: 218vh;
       left: 20vw;
       right: 20vw;
     }
     .container-fluid .competitor-container {
       width: 200px;
-      top: 255vh;
+      top: 263vh;
       left: -53vw;
     }
     .container-fluid .form-container footer {
@@ -155,7 +155,7 @@
       max-width: 200px !important;
     }
     .container-fluid .logo-container {
-      top: 190vh;
+      top: 195vh;
       left: 20vw;
       right: 20vw;
     }
@@ -183,7 +183,7 @@
     }
     .container-fluid .logo-container {
   
-      top: 195vh !important;
+      top: 200vh !important;
     }
     .container-fluid .competitor-container {
   
@@ -208,12 +208,12 @@
           max-width: 200px !important;
         }
         .container-fluid .logo-container {
-          top: 230vh;
+          top: 240vh;
           left: 18vw;
           right: 18vw;
         }
         .container-fluid .competitor-container {
-          top: 282vh;
+          top: 288vh;
           left: -54.5vw;
         }
         .container-fluid .form-container footer {
@@ -268,7 +268,7 @@
           max-width: 200px !important;
         }
         .container-fluid .logo-container {
-          top: 305vh;
+          top: 315vh;
           left: 13vw;
           right: 13vw;
         }
